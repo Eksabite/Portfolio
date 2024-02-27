@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LevelDesignerScript : MonoBehaviour
 {
-
     public static LevelDesignerScript instance;
     public GameObject[] Bricks;
 
@@ -80,13 +79,4 @@ public class LevelDesignerScript : MonoBehaviour
     
     }
 
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            GenerateLevel();
-        }
-        
-    }
 }
